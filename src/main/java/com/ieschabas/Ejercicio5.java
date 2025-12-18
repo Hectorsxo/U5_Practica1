@@ -1,19 +1,21 @@
 package com.ieschabas;
 
+import java.util.Arrays;
+
 /**
  * Ejercicio 5: El Bug de la Lista.
- * Simula la eliminación de una tarea en una posición fija (posición 2)de un array de
+ * Simula la eliminación de una tarea en una posición fija (posición 2) de un array de
  * tamaño fijo, creando un nuevo array con un elemento menos y desplazando los elementos posteriores.
  *
  * @author Héctor Crespo
- * @version 1.0
+ * @version 2.0
  */
 public class Ejercicio5 {
 
     /**
      * Método principal que define un array de 5 tareas pendientes
      * y elimina la tarea en la posición 2 (tercera tarea).
-     * Muestra el array original y el resultado tras la eliminación.
+     * Muestra el array original y el resultado tras la eliminación
      *
      * @param args argumentos de la línea de comandos (no utilizados).
      */
@@ -21,17 +23,13 @@ public class Ejercicio5 {
         String[] tareasPendientes = {"Comprar comida", "Estudiar Java", "Limpiar el PC", "Dormir", "Jugar"};
 
         System.out.println("Tareas originales:");
-        for (String tarea : tareasPendientes) {
-            System.out.println(tarea);
-        }
+        System.out.println(Arrays.toString(tareasPendientes));
 
         // Se elimina siempre la posición 2
         String[] tareasActualizadas = eliminarTarea(tareasPendientes, 2);
 
         System.out.println("\nTareas después de eliminar la posición 2:");
-        for (String tarea : tareasActualizadas) {
-            System.out.println(tarea);
-        }
+        System.out.println(Arrays.toString(tareasActualizadas));
     }
 
     /**
