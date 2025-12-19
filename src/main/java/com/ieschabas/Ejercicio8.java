@@ -26,9 +26,9 @@ public class Ejercicio8 {
     public static void main (String[] args){
         // Declaración e inicialización de una matriz irregular
         int[][] puntuacionesEquipo = {
-                {85, 92, 78, 88},
-                {90, 87, 95, 89, 91},
-                {76, 82}
+                {85, 92, 78, 88},        // Equipo 0: 4 miembros
+                {90, 87, 95, 89, 91},    // Equipo 1: 5 miembros
+                {76, 82}                 //Equipo 2: 2 miembros
         };
         // puntuacionesEquipo.length → número de filas = número de equipos
         System.out.println("Número total de equipo: " + puntuacionesEquipo.length);

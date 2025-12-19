@@ -1,12 +1,9 @@
 package com.ieschabas;
 
 /**
- * Ejercicio 3: Media de Notas del Módulo.
- * Define un método que calcula la media de un array de calificaciones.
- * El array se pasa por referencia, y se recorre completamente para obtener la media.
- *
- * @author Héctor Crespo
- * @version 1.0
+ * Ejercicio 2: Ranking de Streamers.
+ * a) Accede al cuarto streamer (índice 3) y lo imprime.
+ * b) Modifica el nombre del primer streamer (índice 0) a "MegaProGamer".
  */
 public class Ejercicio2 {
 
