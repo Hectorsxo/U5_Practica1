@@ -12,6 +12,12 @@ package com.ieschabas;
 public class Ejercicio9 {
 
     /**
+     * Constructor por defecto
+     */
+    public Ejercicio9() {
+    }
+
+    /**
      * Método principal que:
      * Define una matriz de ejemplo calificacionesTrimestrales.
      * Recorre solo la fila del alumno 2 (índice 2).

@@ -11,6 +11,12 @@ package com.ieschabas;
 public class Ejercicio3 {
 
     /**
+     * Constructor por defecto
+     */
+    public Ejercicio3() {
+    }
+
+    /**
      * Método principal que declara un array de calificaciones,
      * llama al método calcularMedia y muestra el resultado.
      *

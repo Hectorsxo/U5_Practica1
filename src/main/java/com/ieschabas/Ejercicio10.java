@@ -14,6 +14,12 @@ package com.ieschabas;
 public class Ejercicio10 {
 
     /**
+     * Constructor por defecto
+     */
+    public Ejercicio10() {
+    }
+
+    /**
      * Implementación del algoritmo Bubble Sort.
      * Compara elementos adyacentes e intercambia si están desordenados.
      *

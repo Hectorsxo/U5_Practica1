@@ -12,6 +12,12 @@ package com.ieschabas;
 public class Ejercicio1 {
 
     /**
+     * Constructor por defecto
+     */
+    public Ejercicio1() {
+    }
+
+    /**
      * Método principal de la clase.
      * Declara e inicializa el array 'puntosDano' con los valores de daño de cinco armas.
      * Luego, recorre el array mediante un bucle for tradicional e imprime cada valor

@@ -11,6 +11,12 @@ package com.ieschabas;
 public class Ejercicio4 {
 
     /**
+     * Constructor por defecto
+     */
+    public Ejercicio4() {
+    }
+
+    /**
      * Método principal que prueba la búsqueda del código 99.
      * Se simula un array en el que el código 99 está en la posición 7.
      *

@@ -8,6 +8,12 @@ package com.ieschabas;
 public class Ejercicio2 {
 
     /**
+     * Constructor por defecto
+     */
+    public Ejercicio2() {
+    }
+
+    /**
      * Método principal que manipula un array de nombres de streamers.
      *
      * @param args argumentos de la línea de comandos (no utilizados).

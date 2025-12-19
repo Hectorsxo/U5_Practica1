@@ -12,6 +12,12 @@ package com.ieschabas;
 public class Ejercicio7 {
 
     /**
+     * Constructor por defecto
+     */
+    public Ejercicio7() {
+    }
+
+    /**
      * Método principal que inicializa la matriz, asigna los valore solicitados y la imprime.
      *
      * @param args argumentos de la línea de comandos (no utilizados).

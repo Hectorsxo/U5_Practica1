@@ -12,11 +12,19 @@ package com.ieschabas;
 public class Ejercicio6 {
 
     /**
+     * Constructor por defecto
+     */
+    public Ejercicio6() {
+    }
+
+    /**
      * Método principal que inicializa la matriz horarioDAM directamente al declararla,
      * con el horario real proporcionado, y la imprime en la consola.
      *
      * @param args argumentos de la línea de comandos (no utilizados).
      */
+
+
     public static void main(String[] args) {
         // Inicialización concisa de la matriz 5x6 con el horario real
         String[][] horarioDAM = {

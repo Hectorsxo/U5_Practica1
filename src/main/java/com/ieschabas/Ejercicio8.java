@@ -17,6 +17,12 @@ package com.ieschabas;
 public class Ejercicio8 {
 
     /**
+     * Constructor por defecto
+     */
+    public Ejercicio8() {
+    }
+
+    /**
      * Método principal que declara una matriz irregular, la recorre con bucles anidados,
      * y muestra en la consola el número de equipos y el número de miembros por equipo.
      * También imprime todas las puntuaciones para verificar el recorrido.

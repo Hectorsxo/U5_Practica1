@@ -12,6 +12,13 @@ import java.util.Arrays;
  */
 public class Ejercicio5 {
 
+
+    /**
+     * Constructor por defecto
+     */
+    public Ejercicio5() {
+    }
+
     /**
      * Método principal que define un array de 5 tareas pendientes
      * y elimina la tarea en la posición 2 (tercera tarea).
@@ -36,7 +43,7 @@ public class Ejercicio5 {
      * Elimina el elemento en la posición dada de un array de cadenas.
      * Crea un nuevo array con un tamaño menor y copia los elementos
      * anteriores y posteriores a la posición indicada.
-     * Este método asume que la posición es válida (0 <= posicion < array.length).
+     * Este método asume que la posición es válida (0 menor o igual que posición, y posición menor que array.length).
      *
      * @param array array original de tareas.
      * @param posicion índice del elemento a eliminar (por ejemplo, 2).
